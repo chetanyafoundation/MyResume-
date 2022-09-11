@@ -1129,3 +1129,13 @@ section {
   background-color: #717171;
 }
 
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 15s;
+}
+
+@keyframes fade {
+  from {opacity: .9}
+  to {opacity: 6}
+}
